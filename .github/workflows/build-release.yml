@@ -63,7 +63,7 @@ jobs:
           path: ${{env.CORE_FOLDER}}/src/modules/PlayerBots
 
       - name: Cache MySQL Official .zip
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         id: cache-mysqldownload
         with:
           path: "${{env.CACHED_FOLDER}}"
