@@ -4,6 +4,7 @@ on:
   schedule:
     # every day at 6am
     - cron:  '0 6 * * *'
+  workflow_dispatch:
 
 env:
   MYSQL_BIN_NAME: "mysql-8.0.28-winx64"
